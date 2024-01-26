@@ -1,4 +1,4 @@
-# zkPass
+# bbg
 
 ## Setup
 
