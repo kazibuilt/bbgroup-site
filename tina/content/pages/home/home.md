@@ -69,28 +69,28 @@ global:
     _template: metadata
 sections:
   - header:
-      rowOne: Privacy-Focused
-      rowTwo: To Connect
-      rowThree: the
-      rowFour: World
-    bodyLeft: 'Protocol for Private Data based on MPC, ZKP, 3P-TLS.'
+      rowOne: Building
+      rowTwo: Tomorrow.
+      rowThree: Today.
+      rowFour: ''
+    bodyLeft: B&B Group is a Swiss construction and real estate management company.
     bodyRight: >-
-      Verify your real-world private data without revealing your private
-      details.
+      Scroll down to learn more about what we do, and how we can build your
+      dreams.
     banner:
       icon: /cms/svg/Logo wire 2.svg
       marquee:
         textEntry:
-          - zkPass Pre-alpha Testnet is Open for All Now!
+          - "HAVE\_A\_PROJECT\_IN\_MIND? TELL\_US\_ABOUT\_IT..."
       cta:
-        text: Launch App
+        text: "CONTACT\_US"
         url: 'https://pre.zkpass.org/dashboard'
     _template: hero
   - header:
-      rowOne: ZkProof of
-      rowTwo: Everything
-      rowThree: Pass to
-      rowFour: Anywhere
+      rowOne: our
+      rowTwo: expertise
+      rowThree: and long
+      rowFour: record
     body: >
       zkPass serves as **a seamless gateway** between the private data of the
       Web2 and Web3 ecosystem.
@@ -389,3 +389,4 @@ sections:
       url: 'mailto:info@zkpass.org'
     _template: contact
 ---
+
