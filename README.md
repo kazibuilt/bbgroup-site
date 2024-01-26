@@ -18,7 +18,7 @@ The usual process for Next.js based apps/websites:
 
    `$ pnpm dev`
 
-## Stack
+## k
 
 - [Lenis](https://github.com/studio-freight/lenis)
 - [Tempus](https://github.com/studio-freight/tempus)
