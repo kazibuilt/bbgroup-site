@@ -1,4 +1,4 @@
-# zkPass
+# hz
 
 ## Setup
 
