@@ -48,8 +48,11 @@ dependencies:
     specifier: ^0.7.0
     version: 0.7.0(@theatre/core@0.7.0)
   '@tinacms/cli':
-    specifier: ^1.5.38
-    version: 1.5.38(@babel/core@7.23.5)(@types/node@20.10.1)(@types/react@18.2.39)(react-dom@18.2.0)(react@18.2.0)(rollup@2.79.1)(sass@1.70.0)
+    specifier: ^1.5.39
+    version: 1.5.39(@babel/core@7.23.5)(@types/node@20.10.1)(@types/react@18.2.39)(react-dom@18.2.0)(react@18.2.0)(rollup@2.79.1)(sass@1.70.0)
+  backend:
+    specifier: ^0.0.0
+    version: 0.0.0
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -80,6 +83,9 @@ dependencies:
   idb-keyval:
     specifier: ^6.2.1
     version: 6.2.1
+  init:
+    specifier: ^0.1.2
+    version: 0.1.2
   jsonminify:
     specifier: ^0.4.2
     version: 0.4.2
@@ -4166,8 +4172,8 @@ packages:
       - yup
     dev: false
 
-  /@tinacms/cli@1.5.38(@babel/core@7.23.5)(@types/node@20.10.1)(@types/react@18.2.39)(react-dom@18.2.0)(react@18.2.0)(rollup@2.79.1)(sass@1.70.0):
-    resolution: {integrity: sha512-Enu0dyRmvA15yqnGAuLz0KMJymbReXdc17Hf6otK971kv9lj8gcqhC3mx7iJthtLb1jzU9xz86EvIj8nzaT2vg==}
+  /@tinacms/cli@1.5.39(@babel/core@7.23.5)(@types/node@20.10.1)(@types/react@18.2.39)(react-dom@18.2.0)(react@18.2.0)(rollup@2.79.1)(sass@1.70.0):
+    resolution: {integrity: sha512-IAYYSWXVvIdeMCbRvuXH70UKcnoekGfy65eZAb2e/QyId0bcuRbPR/kBr8I+ogozmL5CoEXCP+tm2RgRY1O5Ow==}
     hasBin: true
     dependencies:
       '@graphql-codegen/core': 2.6.8(graphql@15.8.0)
@@ -6862,6 +6868,10 @@ packages:
       babel-plugin-syntax-trailing-function-commas: 7.0.0-beta.0
     dev: false
 
+  /backend@0.0.0:
+    resolution: {integrity: sha512-Fq2aG5+zmmsKv2Dhm3ijAU5spnKOb5ldJlnnC/Vhk6n8In6zaq9eCPBMRiz2j94P/r84QEaBmtwh9tjaDPiQqg==}
+    dev: false
+
   /bail@1.0.5:
     resolution: {integrity: sha512-xFbRxM1tahm08yHBP16MMjVUAvDaBMD38zsM9EMAUN61omwLmKlOpB/Zku5QkjZ8TZ4vn53pj+t518cH0S03RQ==}
     dev: false
@@ -7652,6 +7662,11 @@ packages:
 
   /d3-path@1.0.9:
     resolution: {integrity: sha512-VLaYcn81dtHVTjEHd8B+pbe9yHWpXKZUC87PzoFmsFrJqgFwDe/qxfp5MlfsfM1V5E/iVt0MmEbWQ7FVIXh/bg==}
+    dev: false
+
+  /daemon@1.1.0:
+    resolution: {integrity: sha512-1vX9YVcP21gt12nSD3SQRC/uPU7fyA6M8qyClTBIFuiRWoylFn57PwXhjBAqRl085bZAje7sILhZU48qcS9SWw==}
+    engines: {node: '>= 0.8.0'}
     dev: false
 
   /damerau-levenshtein@1.0.8:
@@ -9520,6 +9535,13 @@ packages:
   /ini@3.0.1:
     resolution: {integrity: sha512-it4HyVAUTKBc6m8e1iXWvXSTdndF7HbdN713+kvLrymxTaU4AUBWrJ4vEooP+V7fexnVD3LKcBshjGGPefSMUQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    dev: false
+
+  /init@0.1.2:
+    resolution: {integrity: sha512-IvHUjULS2q+BXJdiu4FHkByh3+qSFmkOXQ2ItSfYTtkdUksQc0yNX6f1uDyokzRV71tjpFsFc3ckeYLJXunTGw==}
+    engines: {node: '>=0.4.7'}
+    dependencies:
+      daemon: 1.1.0
     dev: false
 
   /internal-slot@1.0.6:
